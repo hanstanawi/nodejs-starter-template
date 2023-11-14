@@ -2,9 +2,14 @@
   "name": "node-ts-starter-template",
   "version": "1.0.0",
   "description": "Node.js + TypeScript starter template",
+  "engines": {
+    "node": ">= 18.x"
+  },
   "keywords": [
     "nodejs",
-    "typescript"
+    "typescript",
+    "jest",
+    "github-actions"
   ],
   "homepage": "https://github.com/hanstanawi/node-ts-starter-template",
   "bugs": {
