@@ -6,22 +6,16 @@ Minimalistic Node.js starter template with TypeScript to kickstart your Node.js 
 
 This starter template includes:
 
-- [Node.js]() - Library for building user interfaces
+- [Node.js](https://nodejs.org) - JavaScript runtime
 - [TypeScript](https://www.typescriptlang.org/) - Your safety net when writing JavaScript
-- [TailwindCSS](https://tailwindcss.com/) - Utility first CSS
 - [pnpm](https://pnpm.io/) - Fast and efficient package manager
-- [Vite](https://vitejs.dev/guide/) - Blazingly fast frontend build tool
-- [React Router](https://reactrouter.com/en/main) - Client side routing solution for React
 - [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) - Find & fix problems in the codebase and format code automatically on save
-  - [Airbnb Config](https://github.com/airbnb/javascript) - Airbnb style guide
-- [Lucide React](https://lucide.dev/) - Beautiful and consistent open-source icons for React
 - [Husky](https://typicode.github.io/husky/) - Git hooks tool
   - [Commit Lint](https://commitlint.js.org/#/) - Force devs to follow conventional commit message
   - [Lint Staged](https://github.com/lint-staged/lint-staged) - Format & lint your code before committing, block commit if issues are detected
 - [Github Actions](https://docs.github.com/en/actions) - Check, test, and build your code automatically on push and PR
 - [Dependabot](https://github.com/dependabot) - Create pull-request to update your dependencies
-- [Storybook](https://storybook.js.org/) - Document and test your components in isolated environment
-- [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - Unit test your components
+- [Jest](https://jestjs.io/) - Unit testing tool
 
 ### Getting Started
 
@@ -30,7 +24,7 @@ This starter template includes:
    Tips: You can use [degit](https://github.com/Rich-Harris/degit) to clone this repo without running `git clone`. [Learn more](https://github.com/Rich-Harris/degit)
 
    ```bash
-   degit hanstanawi/react-ts-starter-template your-app-name
+   degit hanstanawi/node-ts-starter-template your-app-name
    ```
 
    or simply use this template on GitHub when creating new repository.
@@ -74,12 +68,7 @@ You can run unit tests manually on your machine:
 
 ## Learn More
 
-To learn more about React and TypeScript, take a look at the following resources:
+To learn more about Node.js and TypeScript, take a look at the following resources:
 
-- [Learn React](https://react.dev/learn) - learn about React fundamentals and APIs.
+- [Learn Node.js](https://nodejs.org/en/learn) - learn about Node.js fundamentals and APIs.
 - [Learn TypeScript](https://learntypescript.dev/) - an interactive course to learn TypeScript
-- [Learn TailwindCSS](https://tailwindcss.com/) - learn about TailwindCSS and its documentation
-- [Learn React with TypeScript](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup) - learn about integrating React with TypeScript
-- [Learn Testing Library](https://testing-library.com/docs/queries/about/#priority) - learn about Testing Library core queries
-- [React Testing Library tips](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library) - tips from Kent C. Dodds about Testing Library
-- [Getting Started with Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/) - a guide to get started with Storybook with React
