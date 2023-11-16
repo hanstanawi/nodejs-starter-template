@@ -43,11 +43,9 @@ This starter template includes:
    pnpm dev
    ```
 
-4. Open [http://localhost:5137](http://localhost:5137) with your browser to see the result.
+4. You can start editing the project by modifying `index.ts`. The project auto-updates as you edit the file.
 
-   You can start editing the page by modifying `App.tsx`. The page auto-updates as you edit the file.
-
-## Testing
+### Testing
 
 This starter template has Jest setup to run unit tests. Tests are automatically executed on every pull request and push by GitHub Actions CI workflow.
 
@@ -66,7 +64,7 @@ You can run unit tests manually on your machine:
   pnpm test:cov
   ```
 
-## Learn More
+### Learn More
 
 To learn more about Node.js and TypeScript, take a look at the following resources:
 
