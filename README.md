@@ -9,6 +9,7 @@ This starter template includes:
 - [Node.js](https://nodejs.org) - JavaScript runtime
 - [TypeScript](https://www.typescriptlang.org/) - Your safety net when writing JavaScript
 - [pnpm](https://pnpm.io/) - Fast and efficient package manager
+- [Docker](https://docs.docker.com/get-started/) - Develop, ship, and run your app with containers
 - [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) - Find & fix problems in the codebase and format code automatically on save
 - [Husky](https://typicode.github.io/husky/) - Git hooks tool
   - [Commit Lint](https://commitlint.js.org/#/) - Force devs to follow conventional commit message
@@ -120,3 +121,4 @@ To learn more about Node.js and TypeScript, take a look at the following resourc
 
 - [Learn Node.js](https://nodejs.org/en/learn) - learn about Node.js fundamentals and APIs.
 - [Learn TypeScript](https://learntypescript.dev/) - an interactive course to learn TypeScript
+- [Learn Docker](https://docs.docker.com/get-started/) - learn about the basics of Docker
