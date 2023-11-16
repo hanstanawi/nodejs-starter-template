@@ -29,7 +29,11 @@ This starter template includes:
 
    or simply use this template on GitHub when creating new repository.
 
-2. Install dependencies:
+2. Make sure Node.js is installed
+
+   Make sure you have [Node.js](https://nodejs.org/en/) installed. You can download and install Node.js [here](https://nodejs.org/en/)
+
+3. Install dependencies:
 
    Make sure you have [pnpm](https://pnpm.io/) installed. [Learn more](https://pnpm.io/installation) about installing pnpm.
 
@@ -37,13 +41,59 @@ This starter template includes:
    pnpm install
    ```
 
-3. Run the development server
+4. Run the development server
 
    ```bash
    pnpm dev
    ```
 
-4. You can start editing the project by modifying `index.ts`. The project auto-updates as you edit the file.
+5. You can start editing the project by modifying `index.ts`. The project auto-updates as you edit the file.
+
+### Docker
+
+You can run this project without having Node.js installed on your machine by running it using Docker as container. You can learn more about Docker [here](https://docs.docker.com/get-started/).
+
+Make sure Docker is installed and Docker daemon is running on your machine. You can learn more how to download and setup Docker [here](https://www.docker.com/products/docker-desktop/).
+
+1. Build the Docker image
+
+   You can view the [Dockerfile](./Dockerfile) to learn more about the image build steps.
+
+   ```bash
+   docker build -t <YOUR_IMAGE_NAME>:<TAG> .
+   ```
+
+2. Run the Docker container
+
+   ```bash
+   docker run -p 8000:8000 --name <YOUR_CONTAINER_NAME> -it <YOUR_IMAGE_NAME>
+   ```
+
+3. Stop running container
+
+   ```bash
+   docker container stop <YOUR_CONTAINER_NAME>
+   ```
+
+You can also run these commands with `make` command based on this project's [Makefile](./Makefile) configuration to avoid memorizing the long `docker` commands.
+
+1. Build image
+
+   ```bash
+   make docker-build
+   ```
+
+2. Run container
+
+   ```bash
+   make docker-run
+   ```
+
+3. Stop container
+
+   ```bash
+   make docker-stop
+   ```
 
 ### Testing
 
