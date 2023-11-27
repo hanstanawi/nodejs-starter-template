@@ -16,6 +16,7 @@ This starter template includes:
   - [Lint Staged](https://github.com/lint-staged/lint-staged) - Format & lint your code before committing, block commit if issues are detected
 - [Github Actions](https://docs.github.com/en/actions) - Check, test, and build your code automatically on push and PR
 - [Dependabot](https://github.com/dependabot) - Create pull-request to update your dependencies
+- [TypeDoc](https://typedoc.org/guides/overview/) - Documentation generator for TypeScript
 - [Jest](https://jestjs.io/) - Unit testing tool
 
 ### Getting Started
@@ -49,6 +50,14 @@ This starter template includes:
    ```
 
 5. You can start editing the project by modifying `index.ts`. The project auto-updates as you edit the file.
+
+6. You can generate documentation page using `TypeDoc`
+
+   ```bash
+   pnpm docs
+   ```
+
+   The documentation html files will be generated under `/doc` directory.
 
 ### Docker
 
