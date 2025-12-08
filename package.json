@@ -55,7 +55,7 @@
     "rimraf": "^6.1.2",
     "ts-jest": "^29.4.6",
     "tsconfig-paths": "^4.2.0",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typedoc": "^0.28.14",
     "typescript": "^5.9.3"
   }
