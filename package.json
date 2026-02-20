@@ -37,7 +37,7 @@
     "test:cov": "jest --coverage"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.1",
+    "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.1.0",
